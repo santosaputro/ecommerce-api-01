@@ -1,0 +1,17 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "import/no-anonymous-default-export": [
+      "error",
+      {
+        "allowArrowFunction": true,
+        "allowArray": true,
+        "allowAnonymousFunction": true,
+        "allowObject": true,
+        "allowLiteral": true
+      }
+    ]
+  }
+}
